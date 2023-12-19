@@ -1,0 +1,81 @@
+body {
+   margin: 0;
+   background-color: #F5F8FA;
+   font-family: lato, Arial, Helvetica, sans-serif;
+   padding-bottom: 139px;
+}
+
+p {
+   margin: 0;
+   font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.page-center-div {
+   display: flex;
+   justify-content: center;
+}
+
+.housing-div {
+   display: flex;
+   height: 795px;
+   width: 892px;
+   margin-top: 30px;
+   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+/* This where the header styling started */
+
+
+.page-header {
+   margin-left: 42px;
+   margin-right: 42px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 2px solid rgb(224, 230, 234);
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+
+.header-right-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 476px;
+}
+
+.header-right-section p {
+   font-family: lato, Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+   color: rgb(29, 44, 60);
+}
+
+.header-right-section button {
+   font-family: lato, Arial, Helvetica, sans-serif;
+   color: rgb(29, 44, 60);
+   font-size: 15px;
+   font-weight: 700;
+   padding: 12px 20px;
+   background-color: transparent;
+   border: 2px solid rgb(100, 110, 122);
+   border-radius: 6px;
+}
+
+/* This where the footer styling started */
+
+.page-footer {
+   font-family: lato, Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   display: flex;
+   justify-content: center;
+   color: rgba(99, 107, 111, 1);
+   padding-top: 33px;
+}
+
+.page-footer span {
+   color: rgba(49, 112, 143, 1);
+}
